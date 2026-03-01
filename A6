@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Afrofuturism: Past, Present, Future</title>
+    <link rel="stylesheet" href="a6style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Afrofuturism</h1>
+        <p class="tagline">Reimagining Black Identity Through Time, Space, and Possibility</p>
+    </header>
+
+    <main>
+
+        <div class="content-box">
+
+            <h2>What is Afrofuturism?</h2>
+
+            <p>
+                Afrofuturism is a cultural and artistic movement that combines elements of science fiction, history, fantasy, and Afrocentrism to explore the African diaspora experience. It reimagines the past and projects Black identity into futuristic and speculative worlds.
+            </p>
+
+            <p>
+                The term was coined in 1993 by cultural critic Mark Dery, but the ideas long predate the label. Afrofuturism examines technology, liberation, space, spirituality, and Black survival through creative expression.
+            </p>
+
+            <img src="ob.jpeg" alt="Octavia Butler">
+
+            <h2>Octavia Butler and the Future</h2>
+
+            <p>
+                Octavia Butler was a pioneering science fiction writer whose work explored race, power, gender, and survival. Her novels such as *Kindred* and *Parable of the Sower* placed Black women at the center of futuristic narratives and speculative storytelling.
+            </p>
+
+            <p>
+                Butler’s work helped define Afrofuturist literature by imagining futures shaped by resilience and transformation.
+            </p>
+
+            <img src="znh.jpeg" alt="Zora Neale Hurston">
+
+            <h2>Zora Neale Hurston and Cultural Memory</h2>
+
+            <p>
+                Though not labeled Afrofuturist in her time, Zora Neale Hurston’s preservation of African American folklore and spirituality laid groundwork for Afrofuturist thought. Her work centered Black voice, myth, and cultural continuity.
+            </p>
+
+            <p>
+                Afrofuturism often looks backward to ancestral knowledge while imagining new possibilities forward.
+            </p>
+
+            <p class="source">
+                Text adapted from Wikipedia entries on Afrofuturism, Octavia Butler, and Zora Neale Hurston.
+            </p>
+
+        </div>
+
+        
+        <div class="small-only">Mobile Mode: Compact Transmission Activated</div>
+        <div class="medium-only">Tablet Mode: Expanded Signal Range</div>
+        <div class="large-only">Desktop Mode: Multi-Dimensional Interface</div>
+        <div class="xl-only">Ultra Mode: Full Cosmic Display</div>
+
+    </main>
+
+    <footer>
+        <p>Images: Public domain or educational use. Please credit original photographers where applicable.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
