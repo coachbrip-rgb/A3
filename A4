@@ -1,1 +1,75 @@
+Here is your completed **a4.html** file with:
+
+* `<h1>` for the main heading
+* `<h2>` for all section headings
+* An unordered clickable list at the top
+* `<p>` tags for every paragraph
+* Black, red, and green background
+* Black body font, red headings
+* Helvetica font family
+
+You can copy this into a file named **a4.html**:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Black Panther Party</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            color: black;
+            margin: 40px;
+            background: linear-gradient(to bottom, black 33%, red 33%, red 66%, green 66%);
+        }
+
+        h1, h2 {
+            color: red;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>The Black Panther Party</h1>
+
+<ul>
+    <li><a href="#precursor">Precursor to the Revolution</a></li>
+    <li><a href="#section1">Section 1 - What We Want</a></li>
+    <li><a href="#section2">Section 2 - What We Believe</a></li>
+    <li><a href="#section3">Section 3 - Rules of the Black Panther Party</a></li>
+    <li><a href="#section4">Section 4 - 8 Points of Attention</a></li>
+    <li><a href="#section5">Section 5 - 3 Main Rules of Discipline</a></li>
+</ul>
+
+<h2 id="precursor">Precursor to the Revolution</h2>
+
+<p>Written on October 15, 1966, the Black Panther Party Ten-Point Program outlines a clear set of demands aimed at achieving justice, equality, and self-determination for Black communities. Framed as a response to systemic racism and economic exploitation, the document calls for structural change and community empowerment through education, housing, employment, and protection from state violence.</p>
+
+<h2 id="section1">Section 1 – What We Want</h2>
+
+<p>1. We want freedom. We want power to determine the destiny of our Black Community.</p>
+<p>2. We want full employment for our people.</p>
+<p>3. We want an end to the robbery by the white man of our Black Community.</p>
+<p>4. We want decent housing, fit for shelter of human beings.</p>
+<p>5. We want education for our people that exposes the true nature of this decadent American society. We want education that teaches us our true history and our role in the present-day society.</p>
+<p>6. We want all black men to be exempt from military service.</p>
+<p>7. We want an immediate end to police brutality and murder of black people.</p>
+<p>8. We want freedom for all black men held in federal, state, county and city prisons and jails.</p>
+<p>9. We want all black people when brought to trial to be tried in court by a jury of their peer group or people from their black communities, as defined by the Constitution of the United States.</p>
+<p>10. We want land, bread, housing, education, clothing, justice and peace. And as our major political objective, a United Nations-supervised plebiscite to be held throughout the black colony in which only black colonial subjects will be allowed to participate for the purpose of determining the will
+```
 
