@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Litany for Survival</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css7.css">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-12">
+            <h1>A Litany for Survival</h1>
+            <h2>By Audre Lorde</h2>
+        </div>
+    </div>
+
+    <div class="row align-items-center">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="AL.jpeg" alt="Audre Lorde" class="img-fluid">
+        </div>
+
+        <div class="stanza col-12 col-sm-6 col-md-8 col-lg-9">
+            For those of us who live at the shoreline<br>
+            standing upon the constant edges of decision<br>
+            crucial and alone<br>
+            for those of us who cannot indulge<br>
+            the passing dreams of choice<br>
+            who love in doorways coming and going<br>
+            in the hours between dawns<br>
+            looking inward and outward<br>
+            at once before and after<br>
+            seeking a now that can breed<br>
+            futures<br>
+            like bread in our children’s mouths<br>
+            so their dreams will not reflect<br>
+            the death of ours;
+        </div>
+
+    </div>
+
+    <div class="row align-items-center">
+
+        <div class="stanza col-12 col-md-6 col-lg-8">
+            For those of us<br>
+            who were imprinted with fear<br>
+            like a faint line in the center of our foreheads<br>
+            learning to be afraid with our mother’s milk<br>
+            for by this weapon<br>
+            this illusion of some safety to be found<br>
+            the heavy-footed hoped to silence us
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <img src="fine.jpeg" alt="Galaxy representing dreams" class="img-fluid">
+        </div>
+
+    </div>
+
+    <div class="row align-items-center">
+
+        <div class="col-12 col-md-4 col-lg-3">
+            <img src="rosita.jpg" alt="Rosie the Riveter" class="img-fluid">
+        </div>
+
+        <div class="stanza col-12 col-md-4 col-lg-3">
+            For all of us<br>
+            this instant and this triumph<br>
+            We were never meant to survive.
+        </div>
+
+        <div class="stanza col-12 col-md-4 col-lg-6">
+            And when the sun rises we are afraid<br>
+            it might not remain<br>
+            when the sun sets we are afraid<br>
+            it might not rise in the morning<br>
+            when our stomachs are full we are afraid<br>
+            of indigestion<br>
+            when our stomachs are empty we are afraid<br>
+            we may never eat again<br>
+            when we are loved we are afraid<br>
+            love will vanish<br>
+            when we are alone we are afraid<br>
+            love will never return<br>
+            and when we speak we are afraid<br>
+            our words will not be heard<br>
+            nor welcomed<br>
+            but when we are silent<br>
+            we are still afraid
+        </div>
+
+    </div>
+
+    <div class="row align-items-center">
+
+        <div class="stanza col-12 col-md-8 col-lg-9">
+            So it is better to speak<br>
+            remembering<br>
+            we were never meant to survive.
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+            <img src="sunset.jpeg" alt="Sunset representing survival and hope" class="img-fluid">
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
