@@ -1,0 +1,154 @@
+
+
+@font-face {
+    font-family: "SunrisePoetry";
+    src: url("Cinzel-Regular.ttf");
+}
+
+body {
+    background-color: #0a1f44; 
+    color: #ffe6f2; 
+    font-family: "SunrisePoetry", serif;
+    line-height: 1.9;
+    margin: 0;
+    padding: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #ff4d6d; 
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff914d; 
+    margin-bottom: 40px;
+}
+
+
+.stanza {
+    background: linear-gradient(
+        135deg,
+        rgba(255, 77, 109, 0.15),
+        rgba(255, 145, 77, 0.15),
+        rgba(186, 85, 211, 0.15)
+    );
+    border-left: 6px solid #ba55d3; 
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+}
+
+
+
+img {
+    border: 5px solid #ff914d; 
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(255, 77, 109, 0.4);
+}
+
+
+
+@media (min-width: 576px) {
+
+    body {
+        background-color: #102a63;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    .stanza {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    body {
+        background: linear-gradient(
+            to bottom,
+            #0a1f44,
+            #3a1c71
+        );
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-shadow: 0 0 10px #ff4d6d;
+    }
+
+    .stanza {
+        border-left: 8px solid #ff4d6d;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    body {
+        letter-spacing: 0.5px;
+    }
+
+    .stanza {
+        box-shadow: 0 0 25px rgba(186, 85, 211, 0.4);
+        font-size: 1.15rem;
+    }
+
+    img {
+        box-shadow: 0 0 30px rgba(255, 145, 77, 0.6);
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    body {
+        background: linear-gradient(
+            to right,
+            #0a1f44,
+            #3a1c71,
+            #ff4d6d
+        );
+    }
+
+    h1 {
+        font-size: 3.4rem;
+    }
+
+    .stanza {
+        padding: 35px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+
+    body {
+        background: radial-gradient(
+            circle at center,
+            #ff914d,
+            #ba55d3,
+            #0a1f44
+        );
+    }
+
+    h1 {
+        font-size: 3.8rem;
+        text-shadow: 0 0 20px #ff914d;
+    }
+
+    .stanza {
+        font-size: 1.2rem;
+        line-height: 2.1;
+    }
+}
