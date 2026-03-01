@@ -11,7 +11,6 @@ body {
     margin: 60px;
 }
 
-/* MAIN TITLE */
 h1 {
     background-color: black;
     color: red;
@@ -28,10 +27,8 @@ h1 {
     margin-bottom: 50px;
 }
 
-/* SECTION HEADINGS — FIXED */
 h2 {
-    background-color: black;   /* changed to black */
-    color: red;                /* changed to red text */
+    background-color: black;                  
     font-size: 34px;
     line-height: 1.6;
     padding: 18px;
@@ -72,7 +69,6 @@ ul li {
     margin: 15px 0;
 }
 
-/* LINKS */
 a {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
@@ -83,20 +79,17 @@ a {
     transition: all 0.3s ease;
 }
 
-/* Unvisited */
 a:link {
     color: red;
     background-color: black;
 }
 
-/* Visited */
 a:visited {
     color: green;
     background-color: black;
     border-color: green;
 }
 
-/* Hover */
 a:hover {
     color: black;
     background-color: red;
@@ -105,19 +98,12 @@ a:hover {
     transform: scale(1.05);
 }
 
-/* Active */
+
 a:active {
     color: black;
     background-color: green;
     box-shadow: 0px 0px 20px green;
-}
 
-/* RED BACKGROUND SECTION AT BOTTOM */
-.bottom-red {
-    background-color: red;
-    height: 120px;
-    margin-top: 80px;
-    box-shadow: 0px -10px 30px red;
 }
 
 </style>
@@ -129,46 +115,45 @@ a:active {
 
 <ul>
 <li><a href="#precursor">Precursor to the Revolution</a></li>
-<li><a href="#section1">Section 1 What We Want</a></li>
-<li><a href="#section2">Section 2 What We Believe</a></li>
-<li><a href="#section3">Section 3 Rules of the Black Panther Party</a></li>
-<li><a href="#section4">Section 4 8 Points of Attention</a></li>
-<li><a href="#section5">Section 5 3 Main Rules of Discipline</a></li>
+<li><a href="#section1">Section 1, What We Want</a></li>
+<li><a href="#section2">Section 2, What We Believe</a></li>
+<li><a href="#section3">Section 3, Rules of the Black Panther Party</a></li>
+<li><a href="#section4">Section 4, 8 Points of Attention</a></li>
+<li><a href="#section5">Section 5, 3 Main Rules of Discipline</a></li>
 </ul>
 
-<h2 id="precursor">Precursor to the Revolution</h2>
+<h2> id="precursor">Precursor to the Revolution</h2>
 <p>Written on October 15, 1966, the Black Panther Party Ten-Point Program outlines a clear set of demands aimed at achieving justice, equality, and self-determination for Black communities. Framed as a response to systemic racism and economic exploitation, the document calls for structural change and community empowerment through education, housing, employment, and protection from state violence.</p>
 
-<h2 id="section1">Section 1 What We Want</h2>
+<h2> id="section1">What We Want</h2>
 <p>1. We want freedom. We want power to determine the destiny of our Black Community.</p>
 <p>2. We want full employment for our people.</p>
 <p>3. We want an end to the robbery by the white man of our Black Community.</p>
 <p>4. We want decent housing, fit for shelter of human beings.</p>
 <p>5. We want education for our people that exposes the true nature of this decadent American society.</p>
 
-<h2 id="section2">Section 2 What We Believe</h2>
+<h2> id="section2">What We Believe</h2>
 <p>We believe that black people will not be free until we are able to determine our destiny.</p>
 <p>We believe that the federal government is responsible and obligated to give every man employment or a guaranteed income.</p>
 <p>We believe in an educational system that will give to our people a knowledge of self.</p>
 
-<h2 id="section3">Section 3 Rules of the Black Panther Party</h2>
+<h2> id="section3"> Rules of the Black Panther Party</h2>
 <p>Every member of the Black Panther Party must abide by these rules as functional members of this party.</p>
 <p>1. No party member can have narcotics or weed in his possession while doing party work.</p>
 <p>2. No party member can be drunk while doing daily party work.</p>
 <p>3. No party member will use, point, or fire a weapon of any kind unnecessarily or accidentally at anyone.</p>
 
-<h2 id="section4">Section 4 8 Points of Attention</h2>
+<h2> id="section4"> 8 Points of Attention</h2>
 <p>Speak politely.</p>
 <p>Pay fairly for what you buy.</p>
 <p>Return everything you borrow.</p>
 <p>Pay for anything you damage.</p>
 
-<h2 id="section5">Section 5 3 Main Rules of Discipline</h2>
+<h2> id="section5">3 Main Rules of Discipline</h2>
 <p>Obey orders in all your actions.</p>
 <p>Do not take a single needle or piece of thread from the poor and oppressed masses.</p>
 <p>Turn in everything captured from the attacking enemy.</p>
 
-<div class="bottom-red"></div>
 
 </body>
 </html>
