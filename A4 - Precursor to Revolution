@@ -1,18 +1,3 @@
-Here is your complete code. You can paste this into a `.txt` file (for example: `blackpantherparty.txt`).
-
-It follows all your instructions:
-
-* Black page background
-* Helvetica font
-* Powerful, dramatic styling
-* Red `<h2>` text on black background
-* Black text on green background for `<p>`
-* Styled `<h1>`, `<h2>`, `<p>`, and all 4 `<a>` states
-* Clickable navigation that jumps to each section
-
----
-
-```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +11,6 @@ body {
     margin: 60px;
 }
 
-/* MAIN TITLE */
 h1 {
     font-family: Helvetica, Arial, sans-serif;
     color: red;
@@ -40,7 +24,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-/* SECTION HEADINGS */
 h2 {
     font-family: Helvetica, Arial, sans-serif;
     background-color: black;
@@ -56,7 +39,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* PARAGRAPHS */
 p {
     font-family: Helvetica, Arial, sans-serif;
     background-color: green;
@@ -67,10 +49,11 @@ p {
     margin-bottom: 25px;
     font-weight: 600;
     text-indent: 40px;
+    border: 3px solid black;
+    box-shadow: 6px 6px 18px black;
     letter-spacing: 1px;
 }
 
-/* NAVIGATION */
 ul {
     list-style-type: none;
     text-align: center;
@@ -82,7 +65,6 @@ ul li {
     margin: 15px 0;
 }
 
-/* LINKS */
 a {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
@@ -94,7 +76,6 @@ a {
     border: 3px solid red;
 }
 
-/* Link states */
 a:link {
     color: red;
     background-color: black;
@@ -109,12 +90,15 @@ a:visited {
 a:hover {
     color: black;
     background-color: red;
+    box-shadow: 0px 0px 20px red;
     text-decoration: underline;
+    transform: scale(1.05);
 }
 
 a:active {
     color: black;
     background-color: green;
+box-shadow: 0px 0px 20px green;
 }
 
 </style>
@@ -126,18 +110,18 @@ a:active {
 
 <ul>
 <li><a href="#precursor">Precursor to the Revolution</a></li>
-<li><a href="#section1">Section 1 What We Want</a></li>
-<li><a href="#section2">Section 2 What We Believe</a></li>
-<li><a href="#section3">Section 3 Rules of the Black Panther Party</a></li>
-<li><a href="#section4">Section 4 8 Points of Attention</a></li>
-<li><a href="#section5">Section 5 3 Main Rules of Discipline</a></li>
+<li><a href="#section1">Section 1 - What We Want</a></li>
+<li><a href="#section2">Section 2 - What We Believe</a></li>
+<li><a href="#section3">Section 3 - Rules of the Black Panther Party</a></li>
+<li><a href="#section4">Section 4 - 8 Points of Attention</a></li>
+<li><a href="#section5">Section 5 - 3 Main Rules of Discipline</a></li>
 </ul>
 
 <h2 id="precursor">Precursor to the Revolution</h2>
 
 <p>Written on October 15, 1966, the Black Panther Party Ten-Point Program outlines a clear set of demands aimed at achieving justice, equality, and self-determination for Black communities. Framed as a response to systemic racism and economic exploitation, the document calls for structural change and community empowerment through education, housing, employment, and protection from state violence.</p>
 
-<h2 id="section1">Section 1 What We Want</h2>
+<h2 id="section1">What We Want</h2>
 
 <p>1. We want freedom. We want power to determine the destiny of our Black Community.</p>
 <p>2. We want full employment for our people.</p>
@@ -150,29 +134,86 @@ a:active {
 <p>9. We want all black people when brought to trial to be tried in court by a jury of their peer group or people from their black communities, as defined by the Constitution of the United States.</p>
 <p>10. We want land, bread, housing, education, clothing, justice and peace.</p>
 
-<h2 id="section2">Section 2 What We Believe</h2>
+<h2 id="section2">What We Believe</h2>
 
-<p>We believe that black people will not be free until we are able to determine our destiny.</p>
-<p>We believe that the federal government is responsible and obligated to give every man employment or a guaranteed income.</p>
-<p>We believe in an educational system that will give to our people a knowledge of self.</p>
+<p>We believe that black people will not be free until we are able to determine our destiny. </p>
+<p>We believe that the federal government is responsible and obligated to give every man employment or a guaranteed income. We believe that if the white American businessmen will not give full employment, then the means of production should be taken from the businessmen and placed in the community so that the people of the community can organize and employ all of its people and give a high standard of living. </p>
+<p>We believe that this racist government has robbed us and now we are demanding the overdue debt of forty acres and two mules. Forty acres and two mules was promised 100 years ago as restitution for slave labor and mass murder of black people. We will accept the payment as currency which will be distributed to our many communities. The Germans are now aiding the Jews in Israel for the genocide of the Jewish people. The Germans murdered six million Jews. The American racist has taken part in the slaughter of over twenty million black people; therefore, we feel that this is a modest demand that we make. </p>
+<p>We believe that if the white landlords will not give decent housing to our black community, then the housing and the land should be made into cooperatives so that our community, with government aid, can build and make decent housing for its people. </p>
+<p>We believe in an educational system that will give to our people a knowledge of self. If a man does not have knowledge of himself and his position in society and the world, then he has little chance to relate to anything else. </p>
+<p>We believe that Black people should not be forced to fight in the military service to defend a racist government that does not protect us. We will not fight and kill other people of color in the world who, like black people, are being victimized by the white racist government of America. We will protect ourselves from the force and violence of the racist police and the racist military, by whatever means necessary. </p>
+<p>We believe we can end police brutality in our black community by organizing black self-defense groups that are dedicated to defending our black community from racist police oppression and brutality. The Second Amendment to the Constitution of the United States gives a right to bear arms. We therefore believe that all black people should arm themselves for self defense. </p>
+<p>We believe that all black people should be released from the many jails and prisons because they have not received a fair and impartial trial. </p>
+<p>We believe that the courts should follow the United States Constitution so that black people will receive fair trials. The 14th Amendment of the U.S. Constitution gives a man a right to be tried by his peer group. A peer is a person from a similar economic, social, religious, geographical, environmental, historical and racial background. To do this the court will be forced to select a jury from the black community from which the black defendant came. We have been, and are being tried by all-white juries that have no understanding of the "average reasoning man" of the black community. </p>
+<p>When in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation. We hold these truths to be self evident, that all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty, and the pursuit of happiness. That, to secure these rights, governments are instituted among men, deriving their just powers from the consent of the governed; that, whenever any form of government becomes destructive of these ends, it is the right of the people to alter or to abolish it, and to institute a new government, laying its foundation on such principles, and organizing its powers in such form, as to them shall seem most likely to effect their safety and happiness. Prudence, indeed, will dictate that governments long established should not be changed for light and transient causes; and accordingly, all experience hath shown, that mankind are more disposed to supper, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. But, when a long train of abuses and usurpations, pursuing invariable the same object, evinces a design to reduce them under absolute despotism, it is their right, it is their duty, to throw off such government, and to provide new guards for their future security. </p>
 
-<h2 id="section3">Section 3 Rules of the Black Panther Party</h2>
+<h2 id="section3">Rules of the Black Panther Party</h2>
 
-<p>Every member of the Black Panther Party throughout this country of racist America must abide by these rules as functional members of this party.</p>
-<p>1. No party member can have narcotics or weed in his possession while doing party work.</p>
-<p>2. Any party member found shooting narcotics will be expelled from this party.</p>
-<p>3. No party member can be drunk while doing daily party work.</p>
-<p>4. No party member will violate rules relating to office work and general meetings.</p>
+<p>Every member of the Black Panther Party throughout this country of racist America must abide by these rules as functional members of this party. Central Committee members, Central Staffs, and Local Staffs, including all captains subordinated to either national, state, and local leadership of the Black Panther Party will enforce these rules. Length of suspension or other disciplinary action necessary for violation of these rules will depend on national decisions by national, state or state area, and local committees and staffs where said rule or rules of the Black Panther Party were violated. Every member of the party must know these verbatim by heart. And apply them daily. Each member must report any violation of these rules to their leadership or they are counter-revolutionary and are also subjected to suspension by the Black Panther Party. The rules are: .</p>
+<p>1. No party member can have narcotics or weed in his possession while doing party work. </p>
 
-<h2 id="section4">Section 4 8 Points of Attention</h2>
+<p>2. Any part member found shooting narcotics will be expelled from this party. </p>
 
-<p>Speak politely.</p>
-<p>Pay fairly for what you buy.</p>
-<p>Return everything you borrow.</p>
-<p>Pay for anything you damage.</p>
-<p>Do not hit or swear at people.</p>
+<p>3. No party member can be drunk while doing daily party work. </p>
 
-<h2 id="section5">Section 5 3 Main Rules of Discipline</h2>
+<p>4. No party member will violate rules relating to office work, general meetings of the Black Panther Party, and meetings of the Black Panther Party anywhere. </p>
+
+<p>5. No party member will use, point, or fire a weapon of any kind unnecessarily or accidentally at anyone. </p>
+
+<p>6. No party member can join any other army force, other than the Black Liberation Army. </p>
+
+<p>7. No party member can have a weapon in his possession while drunk or loaded off narcotics or weed.</p> 
+
+<p>8. No party member will commit any crimes against other party members or black people at all, and cannot steal or take from the people, not even a needle or a piece of thread. </p>
+
+<p>9. When arrested Black Panther members will give only name, address, and will sign nothing. Legal first aid must be understood by all Party members. </p>
+
+<p>10. The Ten-Point Program and platform of the Black Panther Party must be known and understood by each Party member.</p> 
+
+<p>11. Party Communications must be National and Local.</p> 
+
+<p>12. The 10-10-10-program should be known by all members and also understood by all members. </p>
+
+<p>13. All Finance officers will operate under the jurisdiction of the Ministry of Finance. </p>
+
+<p>14. Each person will submit a report of daily work.</p> 
+
+<p>15. Each Sub-Section Leaders, Section Leaders, and Lieutenants, Captains must submit Daily reports of work. </p>
+
+<p>16. All Panthers must learn to operate and service weapons correctly.</p> 
+
+<p>17. All Leaders who expel a member must submit this information to the Editor of the Newspaper, so that it will be published in the paper and will be known by all chapters and branches. </p>
+
+<p>18. Political Education Classes are mandatory for general membership. </p>
+
+<p>19. Only office personnel assigned to respective offices each day should be there. All others are to sell papers and do Political work out in the community, including Captain, Section Leaders, etc. </p>
+
+<p>20. Communications--all chapters must submit weekly reports in writing to the National Headquarters. </p>
+
+<p>21. All Branches must implement First Aid and/or Medical Cadres. </p>
+
+<p>22. All Chapters, Branches, and components of the Black Panther Party must submit a monthly Financial Report to the Ministry of Finance, and also the Central Committee. </p>
+
+<p>23. Everyone in a leadership position must read no less than two hours per day to keep abreast of the changing political situation. </p>
+
+<p>24. No chapter or branch shall accept grants, poverty funds, money or any other aid from any government agency without contacting the National Headquarters.</p> 
+
+<p>25. All chapters must adhere to the policy and the ideology laid down by the Central Committee of the Black Panther Party. </p>
+
+<p>26. All Branches must submit weekly reports in writing to their respective Chapters. </p>
+
+<h2 id="section4">8 Points of Attention</h2>
+
+<p>Speak politely. </p>
+<p>Pay fairly for what you buy. </p>
+<p>Return everything you borrow. </p>
+<p>Pay for anything you damage. </p>
+<p>Do not hit or swear at people. </p>
+<p>Do not damage property or crops of the poor, oppressed masses. </p>
+<p>Do not take liberties with women. </p>
+<p>If we ever have to take captives do not ill-treat them. </p>
+
+<h2 id="section5">3 Main Rules of Discipline</h2>
 
 <p>Obey orders in all your actions.</p>
 <p>Do not take a single needle or piece of thread from the poor and oppressed masses.</p>
@@ -180,4 +221,4 @@ a:active {
 
 </body>
 </html>
-```
+
