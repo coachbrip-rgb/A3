@@ -28,7 +28,8 @@ h1 {
 }
 
 h2 {
-    background-color: black;                  
+    background-color: black; 
+    color: red;
     font-size: 34px;
     line-height: 1.6;
     padding: 18px;
@@ -37,6 +38,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bold;
+    font-color: black;
     border-left: 10px solid red;
     border-bottom: 4px solid red;
     box-shadow: 5px 5px 15px red;
