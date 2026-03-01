@@ -12,7 +12,6 @@ body {
     margin: 60px;
 }
 
-/* MAIN TITLE */
 h1 {
     background-color: black;
     color: red;
@@ -31,7 +30,7 @@ h1 {
 
 h2 {
     background-color: red;
-    color: black;
+    color: green;
     font-size: 34px;
     line-height: 1.6;
     padding: 18px;
@@ -44,7 +43,6 @@ h2 {
     border-bottom: 4px solid black;
     box-shadow: 5px 5px 15px black;
 }
-
 
 p {
     background-color: green;
@@ -72,7 +70,6 @@ ul li {
     margin: 15px 0;
 }
 
-
 a {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
@@ -83,16 +80,19 @@ a {
     transition: all 0.3s ease;
 }
 
+
 a:link {
     color: red;
     background-color: black;
 }
+
 
 a:visited {
     color: green;
     background-color: black;
     border-color: green;
 }
+
 
 a:hover {
     color: black;
@@ -101,6 +101,7 @@ a:hover {
     text-decoration: underline;
     transform: scale(1.05);
 }
+
 
 a:active {
     color: black;
@@ -127,7 +128,7 @@ a:active {
 <h2> id="precursor">Precursor to the Revolution</h2>
 <p>Written on October 15, 1966, the Black Panther Party Ten-Point Program outlines a clear set of demands aimed at achieving justice, equality, and self-determination for Black communities. Framed as a response to systemic racism and economic exploitation, the document calls for structural change and community empowerment through education, housing, employment, and protection from state violence.</p>
 
-<h2> id="section1">Section 1 – What We Want</h2>
+<h2 id="section1">Section 1 – What We Want</h2>
 
 <p>1. We want freedom. We want power to determine the destiny of our Black Community. </p>
 
@@ -162,7 +163,7 @@ a:active {
 <p>When in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation. We hold these truths to be self evident, that all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty, and the pursuit of happiness. That, to secure these rights, governments are instituted among men, deriving their just powers from the consent of the governed; that, whenever any form of government becomes destructive of these ends, it is the right of the people to alter or to abolish it, and to institute a new government, laying its foundation on such principles, and organizing its powers in such form, as to them shall seem most likely to effect their safety and happiness. Prudence, indeed, will dictate that governments long established should not be changed for light and transient causes; and accordingly, all experience hath shown, that mankind are more disposed to supper, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. But, when a long train of abuses and usurpations, pursuing invariable the same object, evinces a design to reduce them under absolute despotism, it is their right, it is their duty, to throw off such government, and to provide new guards for their future security. </p>
  
 
-<h2> id="section3">Section 3 – Rules of the Black Panther Party</h2>
+<h>2 id="section3">Section 3 – Rules of the Black Panther Party</h2>
 <p>Every member of the Black Panther Party throughout this country of racist America must abide by these rules as functional members of this party. Central Committee members, Central Staffs, and Local Staffs, including all captains subordinated to either national, state, and local leadership of the Black Panther Party will enforce these rules. Length of suspension or other disciplinary action necessary for violation of these rules will depend on national decisions by national, state or state area, and local committees and staffs where said rule or rules of the Black Panther Party were violated. Every member of the party must know these verbatim by heart. And apply them daily. Each member must report any violation of these rules to their leadership or they are counter-revolutionary and are also subjected to suspension by the Black Panther Party. The rules are: .</p>
 <p>1. No party member can have narcotics or weed in his possession while doing party work. </p>
 
@@ -229,7 +230,7 @@ a:active {
 <p>If we ever have to take captives do not ill-treat them. </p>
   
 
-<h2> id="section5">Section 5 – 3 Main Rules of Discipline</h2>
+<h2 id="section5">Section 5 – 3 Main Rules of Discipline</h2>
 <p>Obey orders in all your actions.</p>
 <p>Do not take a single needle or piece of thread from the poor and oppressed masses.</p>
 <p>Turn in everything captured from the attacking enemy.</p>
