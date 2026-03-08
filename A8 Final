@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Caribbean Creativity</title>
+<title>La Caribeana Futurismo</title>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
@@ -16,7 +16,7 @@
 
 <body>
 
-<!-- Navigation -->
+<!-- NAVIGATION -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
 
@@ -25,14 +25,16 @@
 <a class="navbar-brand glow" href="#">Caribbean Culture</a>
 
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+
 <span class="navbar-toggler-icon"></span>
+
 </button>
 
 <div class="collapse navbar-collapse" id="menu">
 
 <ul class="navbar-nav ms-auto">
 
-<li class="nav-item"><a class="nav-link" href="#aesthetics">Aesthetics</a></li>
+<li class="nav-item"><a class="nav-link" href="#aesthetics">Aesthetics / Design</a></li>
 <li class="nav-item"><a class="nav-link" href="#fashion">Fashion</a></li>
 <li class="nav-item"><a class="nav-link" href="#art">Art</a></li>
 <li class="nav-item"><a class="nav-link" href="#animations">Animations</a></li>
@@ -48,7 +50,7 @@
 </nav>
 
 
-<!-- AESTHETICS -->
+<!-- AESTHETICS / DESIGN -->
 
 <section id="aesthetics" class="section container">
 
@@ -57,22 +59,31 @@
 <div class="row">
 
 <div class="col-md-6">
+
 <img src="images/aesthetic.jpg" class="img-fluid zoom">
+
 </div>
 
 <div class="col-md-6">
 
 <p>
-Caribbean aesthetics reflect the cultural fusion of African heritage,
-indigenous traditions, and modern diasporic identity. Color palettes
-often mirror ocean blues, tropical landscapes, and vibrant festival
-energy.
+Caribbean aesthetics and design reflect the cultural fusion of African
+heritage, indigenous traditions, and contemporary diasporic identity.
+Visual culture throughout the Caribbean celebrates vibrant color
+palettes, bold patterns, and artistic expression inspired by tropical
+landscapes and carnival celebrations.
 </p>
 
 <p>
-Design throughout the Caribbean celebrates rhythm, movement, and
-storytelling. From architecture to digital art, visual culture
-continues to evolve while honoring ancestral creativity.
+Design appears in architecture, graphic art, fashion, and digital
+media. Caribbean creators use rhythm, color, and symbolism to express
+cultural pride and community identity.
+</p>
+
+<p>
+Modern designers continue expanding Caribbean aesthetics through
+animation, digital illustration, and creative storytelling that
+reaches global audiences.
 </p>
 
 </div>
@@ -91,20 +102,28 @@ continues to evolve while honoring ancestral creativity.
 <div class="row">
 
 <div class="col-md-6">
+
 <img src="images/fashion.jpg" class="img-fluid zoom">
+
 </div>
 
 <div class="col-md-6">
 
 <p>
-Caribbean fashion celebrates self-expression, heritage, and pride.
-Designers combine bold prints, natural hair expression, and vibrant
-color combinations inspired by island culture.
+Caribbean fashion celebrates cultural pride and personal identity.
+Designers often combine vibrant fabrics, Afro-Caribbean hairstyles,
+and bold color palettes inspired by island environments.
 </p>
 
 <p>
-From carnival costumes to everyday streetwear, clothing represents
-identity, resilience, and creativity within the global Black diaspora.
+Carnival fashion is one of the most recognizable expressions of
+Caribbean creativity, featuring elaborate costumes, feathers,
+beading, and artistic craftsmanship.
+</p>
+
+<p>
+Contemporary Caribbean streetwear continues to influence global
+fashion trends while celebrating Black heritage and diaspora style.
 </p>
 
 </div>
@@ -123,21 +142,24 @@ identity, resilience, and creativity within the global Black diaspora.
 <div class="row">
 
 <div class="col-md-6">
+
 <img src="images/art.jpg" class="img-fluid zoom">
+
 </div>
 
 <div class="col-md-6">
 
 <p>
-Visual art across the Caribbean explores themes of memory,
-migration, and cultural pride. Artists frequently use symbolism
-and storytelling to explore the region's history.
+Caribbean visual art blends African heritage, indigenous traditions,
+and modern perspectives. Artists often explore themes of migration,
+memory, and cultural identity.
 </p>
 
 <p>
-Murals, paintings, sculptures, and digital works highlight
-community voices while celebrating Black imagination and
-innovation.
+Murals, paintings, sculptures, and digital art capture stories of
+community resilience and celebration. Many artists use bold color
+contrasts and symbolism to reflect the history and creativity of the
+Caribbean diaspora.
 </p>
 
 </div>
@@ -156,21 +178,23 @@ innovation.
 <div class="row">
 
 <div class="col-md-6">
+
 <img src="images/animation.jpg" class="img-fluid zoom">
+
 </div>
 
 <div class="col-md-6">
 
 <p>
-Animation is becoming an important creative space for Caribbean
-artists. Through digital storytelling, creators can reimagine
-folklore, history, and future visions of Black culture.
+Animation is an emerging creative field for Caribbean artists and
+storytellers. Through digital animation, creators can explore folklore,
+history, and futuristic visions of Caribbean life.
 </p>
 
 <p>
-New animation styles combine 3D modeling, comic aesthetics,
-and Caribbean narratives to bring fresh representation to
-global media.
+New animation styles often combine 3D modeling with comic or manga
+inspired visual techniques to create dynamic storytelling rooted in
+Black cultural experiences.
 </p>
 
 </div>
@@ -189,20 +213,26 @@ global media.
 <div class="row">
 
 <div class="col-md-6">
+
 <img src="images/music.jpg" class="img-fluid zoom">
+
 </div>
 
 <div class="col-md-6">
 
 <p>
-Music is one of the most influential Caribbean cultural exports.
+Music is one of the Caribbean’s most influential cultural exports.
 Genres such as reggae, dancehall, soca, and calypso have shaped
-global sound and inspired generations of artists.
+global music culture.
 </p>
 
 <p>
-Beyond entertainment, Caribbean music often reflects political
-consciousness, resistance, celebration, and unity.
+Caribbean music often carries powerful messages about resistance,
+community, celebration, and social awareness.
+</p>
+
+<p>
+These rhythms and sounds continue to influence artists worldwide.
 </p>
 
 </div>
@@ -221,21 +251,23 @@ consciousness, resistance, celebration, and unity.
 <div class="row">
 
 <div class="col-md-6">
+
 <img src="images/books.jpg" class="img-fluid zoom">
+
 </div>
 
 <div class="col-md-6">
 
 <p>
-Caribbean literature captures powerful narratives about migration,
-colonial history, and cultural identity. Writers explore themes
-of belonging, heritage, and resistance.
+Caribbean literature captures the complex history and cultural
+identity of the region. Writers explore themes of migration,
+colonial history, family, and belonging.
 </p>
 
 <p>
-Poetry, novels, and oral storytelling traditions remain essential
-to preserving Caribbean voices and sharing them with global
-audiences.
+Poetry, novels, and storytelling traditions preserve Caribbean
+voices and allow global audiences to connect with the experiences
+of the Black diaspora.
 </p>
 
 </div>
@@ -244,6 +276,8 @@ audiences.
 
 </section>
 
+
+<!-- FOOTER -->
 
 <footer class="footer text-center">
 
@@ -257,4 +291,3 @@ audiences.
 </body>
 
 </html>
-
