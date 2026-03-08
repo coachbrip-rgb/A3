@@ -16,7 +16,6 @@
 
 <body>
 
-<!-- NAVIGATION -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
 
@@ -50,9 +49,7 @@
 </nav>
 
 
-<!-- AESTHETICS / DESIGN -->
-
-<section id="aesthetics" class="section container">
+<section id="aesthetics/design" class="section container">
 
 <h1>Aesthetics & Design</h1>
 
@@ -93,8 +90,6 @@ reaches global audiences.
 </section>
 
 
-<!-- FASHION -->
-
 <section id="fashion" class="section container">
 
 <h1>Fashion</h1>
@@ -133,8 +128,6 @@ fashion trends while celebrating Black heritage and diaspora style.
 </section>
 
 
-<!-- ART -->
-
 <section id="art" class="section container">
 
 <h1>Art</h1>
@@ -169,8 +162,6 @@ Caribbean diaspora.
 </section>
 
 
-<!-- ANIMATIONS -->
-
 <section id="animations" class="section container">
 
 <h1>Animations</h1>
@@ -203,8 +194,6 @@ Black cultural experiences.
 
 </section>
 
-
-<!-- MUSIC -->
 
 <section id="music" class="section container">
 
@@ -242,7 +231,6 @@ These rhythms and sounds continue to influence artists worldwide.
 </section>
 
 
-<!-- LITERATURE -->
 
 <section id="literature" class="section container">
 
@@ -276,8 +264,6 @@ of the Black diaspora.
 
 </section>
 
-
-<!-- FOOTER -->
 
 <footer class="footer text-center">
 
