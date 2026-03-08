@@ -1,0 +1,81 @@
+/* Custom Font */
+@font-face {
+    font-family: 'BubbleGarden';
+    src: url('fonts/bubble-garden.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General Body */
+body {
+    background: black;
+    color: white;
+    font-family: 'BubbleGarden', Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+.navbar-brand {
+    color: #8fd3ff !important;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #c9a8ff !important;
+    text-shadow: 0 0 10px #c9a8ff;
+}
+
+.nav-link:active {
+    color: #8fd3ff !important;
+}
+
+/* Section Styling */
+.section {
+    padding: 120px 0;
+    border-bottom: 1px solid #222;
+}
+
+.section h1 {
+    color: #8fd3ff;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+}
+
+/* Image Hover Zoom */
+.zoom {
+    transition: transform 0.4s;
+    border-radius: 10px;
+}
+
+.zoom:hover {
+    transform: scale(1.08);
+}
+
+/* Glow effect for headings */
+.glow {
+    text-shadow: 0 0 10px #8fd3ff;
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    color: #aaa;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    .section {
+        padding: 80px 20px;
+    }
+    .section h1 {
+        font-size: 2rem;
+    }
+}
