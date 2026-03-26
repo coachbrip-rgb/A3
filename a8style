@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'BubbleGarden';
-    src: url(bubble-garden.ttf') format('truetype');
+    src: url(bubble-garden.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
